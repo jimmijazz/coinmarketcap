@@ -55,7 +55,7 @@ var coinCodes = {
 };
 
 // How much extra to add to each product
-var profitMultiplier = 1; // 10%;
+var profitMultiplier = 1.1; // 10%;
 
 // DETECT IF IT'S RUNNING ON LOCAL ENVIRONMENT OR HEROKU
 if (app.get('env') === 'development') {
